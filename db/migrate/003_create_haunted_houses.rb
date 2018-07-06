@@ -1,6 +1,6 @@
 class CreateHauntedHouses < ActiveRecord::Migration
   def change
-    create_table :students do |t|
+    create_table :haunted_houses do |t|
       t.string :name
    end
  end
