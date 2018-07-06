@@ -1,6 +1,6 @@
 class CreateCostumeStores < ActiveRecord::Migration
   def change
-    create_table : do |t|
+    create_table :costume_stores do |t|
       t.string :name
   end
  end
