@@ -1,4 +1,9 @@
 class CreateCostumes < ActiveRecord::Migration
+  def change
+    create_table :students do |t|
+      t.string :name
+  end
+ end
 end
 
 # By convention, the class name should match the part of the
